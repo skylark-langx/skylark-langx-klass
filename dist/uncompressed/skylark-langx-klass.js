@@ -87,7 +87,7 @@
 })(function(define,require) {
 
 define('skylark-langx-klass/klass',[
-  "skylark-langx-ns/ns",
+  "skylark-langx-ns",
   "skylark-langx-types",
   "skylark-langx-objects",
   "skylark-langx-arrays",
