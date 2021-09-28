@@ -88,11 +88,10 @@
 
 define('skylark-langx-klass/klass',[
   "skylark-langx-ns",
-  "skylark-langx-constructs/klass"
-],function(skylark,klass){
+  "skylark-langx-constructs"
+],function(skylark,constructs){
 
-
-    return skylark.attach("langx.klass",klass);
+    return skylark.attach("langx.klass",constructs.klass);
 });
 define('skylark-langx-klass/main',[
 	"./klass"

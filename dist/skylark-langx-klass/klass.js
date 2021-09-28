@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["skylark-langx-ns","skylark-langx-constructs/klass"],function(a,n){return a.attach("langx.klass",n)});
+define(["skylark-langx-ns","skylark-langx-constructs"],function(a,n){return a.attach("langx.klass",n.klass)});
 //# sourceMappingURL=sourcemaps/klass.js.map
